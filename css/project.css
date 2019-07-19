@@ -1,0 +1,36 @@
+.project {
+  margin-top: 60px;
+}
+
+.text p {
+  width: 600px;
+  margin: 20px 0;
+}
+
+mark {
+  background-color: #f5f3f3;
+}
+
+.text a {
+  text-decoration: underline;
+}
+
+.project img {
+  width: 100%;
+}
+
+.shot {
+  margin: 50px 0 20px 0;
+}
+
+a .shot:hover {
+  opacity: 0.7;
+}
+
+.icontext {
+  text-align: right;
+}
+
+.project .icons {
+  justify-content: flex-end;
+}

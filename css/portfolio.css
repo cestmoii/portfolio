@@ -1,0 +1,193 @@
+h2 {
+  font-size: 20px;
+  color: #122112;
+}
+
+h3 {
+  font-size: 18px;
+  color: #122112;
+}
+
+p {
+  font-size: 16px;
+  color: #272727;
+}
+
+.wrapper {
+  position: relative;
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  height: 584px;
+}
+
+.card {
+  border-radius: 4px;
+  width: auto;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: white;
+}
+
+.card:hover .growy,.card:hover .mixmag,.card:hover .music,.card:hover .wix, .card:hover .icons, .card:hover p, .card:hover h3 {
+  opacity: 0.7;
+}
+
+/*testing other card's behavior with portfoli2 html file*/
+.card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.growy, .mixmag, .music, .wix {
+  background-size: cover;
+  width: 580px;
+  height: 340px;
+  margin-bottom: 20px;
+}
+
+.growy {
+  background-image: url(../images/growy.png);
+}
+
+.mixmag {
+  background-image: url(../images/mixmag.png);
+}
+
+.music {
+  background-image: url(../images/musiccard.png);
+}
+
+.wix {
+  background-image: url(../images/wix.png);
+}
+
+.music, .wix {
+  background-position: center;
+}
+
+.icons img {
+  width: 100%;
+  max-height: 50px;
+}
+
+.card h3 {
+  margin-top: 28px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.icons {
+  margin-top: 14px;
+  display: flex;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon:nth-child(2), .icon:nth-child(3) {
+  margin-left: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  padding: 22px 6px 16px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.back {
+  left: 40px;
+}
+
+.forward {
+  right: 40px;
+}
+
+.line {
+  position: relative;
+  background-color: #122112;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.line:nth-child(1) {
+  right: -3px;
+  width: 50px;
+  height: 3px;
+}
+
+.line:nth-child(2), .line:nth-child(3) {
+  width: 30px;
+  height: 3px;
+}
+
+.line:nth-child(2) {
+  top: 8px;
+  transform: rotate(45deg);
+}
+
+.line:nth-child(3) {
+  top: -17px;
+  transform: rotate(-45deg);
+}
+
+.line2 {
+  position: relative;
+  background-color: #122112;
+  box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.line2:nth-child(1) {
+  right: 3px;
+  width: 50px;
+  height: 3px;
+}
+
+.line2:nth-child(2), .line2:nth-child(3) {
+  right: -20px;
+  width: 30px;
+  height: 3px;
+}
+
+.line2:nth-child(2) {
+  top: 8px;
+  transform: rotate(-45deg);
+}
+
+.line2:nth-child(3) {
+  top: -17px;
+  transform: rotate(45deg);
+}
+
+#side1{
+  position: absolute;
+  transform: translateX(0px) scale(1.2);
+  z-index: 99;
+  transition: all .5s;
+}
+#side2{
+  position: absolute;
+  transform: translateX(-160px);
+  z-index: 9;
+  transition: all .5s;
+}
+#side3{
+  position: absolute;
+  transform: translateX(160px);
+  z-index: 9;
+  transition: all .5s;
+}
+#side4{
+  position: absolute;
+  transform: translateX(0px);
+  z-index: 9;
+  transition: all .5s;
+}

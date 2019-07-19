@@ -97,7 +97,11 @@ p {
 .arrow {
   position: absolute;
   top: 50%;
-  padding: 22px 6px 16px;
+  width: 50px;
+      height: 50px;
+    display: flex;
+    align-items: center;
+    transform: translateY(-50%);
 }
 
 .arrow:hover {
@@ -105,66 +109,71 @@ p {
 }
 
 .back {
-  left: 40px;
+  left: 60px;
 }
 
-.forward {
-  right: 40px;
-}
-
-.line {
+.line, .line2 {
   position: relative;
+  background-color: #122112;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  width: 50px;
+  height: 3px;
+}
+
+.line::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  top: 11px;
+  left: -3px;
+  transform: rotate(45deg);
+  position: absolute;
   background-color: #122112;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.line:nth-child(1) {
-  right: -3px;
-  width: 50px;
-  height: 3px;
-}
-
-.line:nth-child(2), .line:nth-child(3) {
+.line::after {
+  content: "";
+  display: block;
   width: 30px;
   height: 3px;
-}
-
-.line:nth-child(2) {
-  top: 8px;
-  transform: rotate(45deg);
-}
-
-.line:nth-child(3) {
-  top: -17px;
+  top: -11px;
+  left: -3px;
   transform: rotate(-45deg);
-}
-
-.line2 {
-  position: relative;
+  position: absolute;
   background-color: #122112;
-  box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.line2:nth-child(1) {
-  right: 3px;
-  width: 50px;
-  height: 3px;
+.forward {
+  right: 60px;
 }
 
-.line2:nth-child(2), .line2:nth-child(3) {
-  right: -20px;
+.line2::before {
+  content: "";
+  display: block;
   width: 30px;
   height: 3px;
-}
-
-.line2:nth-child(2) {
-  top: 8px;
+  top: 11px;
+  right: -3px;
   transform: rotate(-45deg);
+  position: absolute;
+  background-color: #122112;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.line2:nth-child(3) {
-  top: -17px;
+.line2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  top: -11px;
+  right: -3px;
   transform: rotate(45deg);
+  position: absolute;
+  background-color: #122112;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 #side1{

@@ -171,8 +171,7 @@
 
   .wrapper {
     margin: 60px;
-    /* height: 420px; */
-    height: 500px;
+    height: 800px;
   }
 
   .arrow {
@@ -180,17 +179,23 @@
   }
 
   .card {
-    width: auto;
+    margin-top: 70px;
     padding: 10px;
     border-radius: 2px;
   }
 
   .growy, .mixmag, .music, .wix {
-    width: 240px;
-    height: 325px;
-    /* width: 400px;
-    height: 270px; */
+    width: 356px;
+    height: 508px;
     margin-bottom: 10px;
+  }
+
+  .small {
+    margin-top: -20px;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
   }
 
   .card h3 {
@@ -240,5 +245,39 @@
   .job {
     width: 420px;
     border: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    width: auto;
+    margin: 0 10px 20px;
+  }
+
+  .job {
+    width: auto;
+    margin: 0 10px;
+  }
+
+  .wrap h1 {
+    margin: 30px 10px 0;
+  }
+
+  .wrapper {
+    margin: 60px 0;
+    height: 600px;
+  }
+
+  .card {
+    margin: 60px auto;
+  }
+
+  .growy, .mixmag, .music, .wix {
+    width: 236px;
+    height: 348px;
+  }
+
+  #side2, #side3, #side4 {
+    display: none;
   }
 }

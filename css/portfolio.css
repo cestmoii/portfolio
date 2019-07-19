@@ -200,3 +200,7 @@ p {
   z-index: 9;
   transition: all .5s;
 }
+
+.small {
+  display: none;
+}

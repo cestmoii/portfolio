@@ -153,12 +153,11 @@
   }
 
   .icontext {
-    margin: 10px 20px;
+    margin: 10px 6px 0;
   }
 
-  .icon {
-    width: 30px;
-    margin: 10px 10px 0 0;
+  .icons img {
+    max-height: 30px;
   }
 
   .icon:nth-child(2), .icon:nth-child(3) {

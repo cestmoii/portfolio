@@ -124,10 +124,6 @@
     width: 500px;
     height: 338px;
   }
-
-  .circle {
-    margin: 0 5px;
-  }
 }
 
 @media screen and (max-width: 840px) {
@@ -264,9 +260,6 @@
 
   .circle {
     bottom: 90px;
-    margin: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 30px;
     height: 30px;
   }

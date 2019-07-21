@@ -20,6 +20,10 @@
   justify-content: space-between;
 }
 
+.small {
+  display: none;
+}
+
 .about {
   margin-top: 80px;
   padding: 0 0 30px 30px;
@@ -120,6 +124,10 @@
     width: 500px;
     height: 338px;
   }
+
+  .circle {
+    margin: 0 5px;
+  }
 }
 
 @media screen and (max-width: 840px) {
@@ -189,7 +197,7 @@
     margin-bottom: 10px;
   }
 
-  .small {
+  .swype {
     margin-top: -20px;
     display: block;
     position: absolute;
@@ -244,6 +252,42 @@
   .job {
     width: 420px;
     border: 2px solid black;
+  }
+
+  .small {
+    display: block;
+  }
+
+  .big {
+    display: none;
+  }
+
+  .circle {
+    bottom: 90px;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+  }
+
+  .line3 {
+    width: 20px;
+    height: 2px;
+  }
+
+  .line3::before {
+    width: 12px;
+    height: 2px;
+    top: 4px;
+    left: -2px;
+  }
+
+  .line3::after {
+    width: 12px;
+    height: 2px;
+    top: -4px;
+    left: -2px;
   }
 }
 

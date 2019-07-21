@@ -34,3 +34,58 @@ a .shot:hover {
 .project .icons {
   justify-content: flex-end;
 }
+
+.ups-wrap {
+  position: absolute;
+  width: 140px;
+  left: 0;
+}
+
+.up {
+  display: none;
+}
+
+.circle {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  margin: 0 45px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.line3 {
+  margin: auto;
+  position: relative;
+  background-color: #122112;
+  width: 31px;
+  height: 3px;
+  transform: rotate(90deg);
+}
+
+.line3::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 3px;
+  top: 6px;
+  left: -2px;
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: #122112;
+}
+
+.line3::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 3px;
+  top: -6px;
+  left: -2px;
+  transform: rotate(-45deg);
+  position: absolute;
+  background-color: #122112;
+}

@@ -258,17 +258,19 @@
     display: none;
   }
 
+  .up {
+    opacity: 0.4;
+  }
+
   .circle {
     bottom: 90px;
     width: 30px;
     height: 30px;
-    background-color: #122112
   }
 
   .line3 {
     width: 20px;
     height: 2px;
-    background-color: #ffffff;
   }
 
   .line3::before {
@@ -276,7 +278,6 @@
     height: 2px;
     top: 4px;
     left: -2px;
-    background-color: #ffffff;
   }
 
   .line3::after {

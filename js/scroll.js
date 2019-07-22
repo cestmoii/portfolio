@@ -5,9 +5,9 @@ $(document).ready(function() {
 
     $(window).scroll(function(){
       if($(window).scrollTop()>200){
-      $('.up').show()
-    } else {
-      $('.up').hide()
-    }
+        $('.up').show()
+      } else {
+        $('.up').hide()
+      }
     });
 });

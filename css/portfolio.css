@@ -204,3 +204,32 @@ p {
 .small {
   display: none;
 }
+
+#swype1, #swype2, #swype3, #swype4 {
+  display: none;
+}
+
+/* #swype1{
+  position: absolute;
+  transform: translateX(0px) scale(1.2);
+  z-index: 99;
+  transition: all .5s;
+}
+#swype2{
+  position: absolute;
+  transform: translateX(-160px);
+  z-index: 9;
+  transition: all .5s;
+}
+#swype3{
+  position: absolute;
+  transform: translateX(160px);
+  z-index: 9;
+  transition: all .5s;
+}
+#swype4{
+  position: absolute;
+  transform: translateX(0px);
+  z-index: 9;
+  transition: all .5s;
+} */

@@ -66,11 +66,6 @@ p {
   background-position: center;
 }
 
-.icons img {
-  width: auto;
-  max-height: 50px;
-}
-
 .card h3 {
   margin-top: 28px;
 }
@@ -83,6 +78,11 @@ p {
 .icons {
   margin-top: 14px;
   display: flex;
+}
+
+.icons img {
+  width: auto;
+  max-height: 50px;
 }
 
 .icon {
@@ -125,8 +125,8 @@ p {
   display: block;
   width: 30px;
   height: 3px;
-  top: 11px;
-  left: -3px;
+  top: 10px;
+  left: -4px;
   transform: rotate(45deg);
   position: absolute;
   background-color: #122112;
@@ -138,8 +138,8 @@ p {
   display: block;
   width: 30px;
   height: 3px;
-  top: -11px;
-  left: -3px;
+  top: -10px;
+  left: -4px;
   transform: rotate(-45deg);
   position: absolute;
   background-color: #122112;
@@ -155,8 +155,8 @@ p {
   display: block;
   width: 30px;
   height: 3px;
-  top: 11px;
-  right: -3px;
+  top: 10px;
+  right: -4px;
   transform: rotate(-45deg);
   position: absolute;
   background-color: #122112;
@@ -168,8 +168,8 @@ p {
   display: block;
   width: 30px;
   height: 3px;
-  top: -11px;
-  right: -3px;
+  top: -10px;
+  right: -4px;
   transform: rotate(45deg);
   position: absolute;
   background-color: #122112;

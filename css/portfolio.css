@@ -14,18 +14,22 @@ p {
 }
 
 .wrapper {
-  position: relative;
-  margin: 100px 0;
   display: flex;
-  justify-content: center;
-  height: 584px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 60px 120px 30px;
+}
+
+.wrapper a {
+  margin: 0 0 40px;
 }
 
 .card {
   border-radius: 4px;
-  width: auto;
+  width: 464px;
   box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 14px;
   background-color: white;
 }
 
@@ -33,17 +37,9 @@ p {
   opacity: 0.7;
 }
 
-/*testing other card's behavior with portfoli2 html file*/
-.card img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
 .growy, .mixmag, .music, .wix {
   background-size: cover;
-  width: 580px;
   height: 340px;
-  margin-bottom: 20px;
 }
 
 .growy {
@@ -94,142 +90,6 @@ p {
   margin-left: 20px;
 }
 
-.arrow {
-  position: absolute;
-  top: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  transform: translateY(-50%);
-}
-
-.arrow:hover {
-  cursor: pointer;
-}
-
-.back {
-  left: 60px;
-}
-
-.line, .line2 {
-  position: relative;
-  background-color: #122112;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-  width: 50px;
-  height: 3px;
-}
-
-.line::before {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 3px;
-  top: 10px;
-  left: -4px;
-  transform: rotate(45deg);
-  position: absolute;
-  background-color: #122112;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.line::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 3px;
-  top: -10px;
-  left: -4px;
-  transform: rotate(-45deg);
-  position: absolute;
-  background-color: #122112;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.forward {
-  right: 60px;
-}
-
-.line2::before {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 3px;
-  top: 10px;
-  right: -4px;
-  transform: rotate(-45deg);
-  position: absolute;
-  background-color: #122112;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.line2::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 3px;
-  top: -10px;
-  right: -4px;
-  transform: rotate(45deg);
-  position: absolute;
-  background-color: #122112;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-#side1{
-  position: absolute;
-  transform: translateX(0px) scale(1.2);
-  z-index: 99;
-  transition: all .5s;
-}
-#side2{
-  position: absolute;
-  transform: translateX(-160px);
-  z-index: 9;
-  transition: all .5s;
-}
-#side3{
-  position: absolute;
-  transform: translateX(160px);
-  z-index: 9;
-  transition: all .5s;
-}
-#side4{
-  position: absolute;
-  transform: translateX(0px);
-  z-index: 9;
-  transition: all .5s;
-}
-
 .small {
   display: none;
 }
-
-#swype1, #swype2, #swype3, #swype4 {
-  display: none;
-}
-
-/* #swype1{
-  position: absolute;
-  transform: translateX(0px) scale(1.2);
-  z-index: 99;
-  transition: all .5s;
-}
-#swype2{
-  position: absolute;
-  transform: translateX(-160px);
-  z-index: 9;
-  transition: all .5s;
-}
-#swype3{
-  position: absolute;
-  transform: translateX(160px);
-  z-index: 9;
-  transition: all .5s;
-}
-#swype4{
-  position: absolute;
-  transform: translateX(0px);
-  z-index: 9;
-  transition: all .5s;
-} */

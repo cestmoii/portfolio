@@ -32,11 +32,11 @@ p {
   background-color: white;
 }
 
-.card:hover .growy,.card:hover .mixmag,.card:hover .music,.card:hover .cross, .card:hover .icons, .card:hover p, .card:hover h3 {
+.card:hover .growy, .card:hover .mixmag, .card:hover .music, .card:hover .cross, .card:hover .suitup, .card:hover .icons, .card:hover p, .card:hover h3 {
   opacity: 0.7;
 }
 
-.growy, .mixmag, .music, .cross {
+.growy, .mixmag, .music, .cross, .suitup {
   background-size: cover;
   height: 320px;
 }
@@ -56,6 +56,10 @@ p {
 .cross {
   background-image: url(../images/booking.png);
   background-position: center;
+}
+
+.suitup {
+  background-image: url(../images/suitup.png);
 }
 
 .music, .wix {
@@ -86,7 +90,7 @@ p {
   height: 50px;
 }
 
-.icon:nth-child(2), .icon:nth-child(3) {
+.icon:nth-child(2), .icon:nth-child(3), .icon:nth-child(4) {
   margin-left: 20px;
 }
 

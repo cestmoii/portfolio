@@ -8,6 +8,10 @@ h3 {
   color: #122112;
 }
 
+.mini {
+  display: none;
+}
+
 p {
   font-size: 16px;
   color: #272727;

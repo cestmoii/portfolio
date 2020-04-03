@@ -1,3 +1,7 @@
+body {
+  background-color: #fcfcfc;
+}
+
 .project {
   margin-top: 60px;
 }
@@ -5,6 +9,10 @@
 .text p {
   width: 600px;
   margin: 20px 0;
+}
+
+.text span {
+  font-size: 12px;
 }
 
 .text a {

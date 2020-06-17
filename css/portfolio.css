@@ -36,11 +36,11 @@ p {
   background-color: white;
 }
 
-.card:hover .growy, .card:hover .mixmag, .card:hover .music, .card:hover .cross, .card:hover .suitup, .card:hover .welearn, .card:hover .skate, .card:hover .icons, .card:hover p, .card:hover h3 {
+.card:hover .growy, .card:hover .nicole, .card:hover .music, .card:hover .cross, .card:hover .suitup, .card:hover .welearn, .card:hover .skate, .card:hover .icons, .card:hover p, .card:hover h3 {
   opacity: 0.7;
 }
 
-.growy, .mixmag, .music, .cross, .suitup, .welearn, .skate {
+.growy, .nicole, .music, .cross, .suitup, .welearn, .skate {
   background-size: cover;
   height: 320px;
 }
@@ -49,8 +49,8 @@ p {
   background-image: url(../images/growy.png);
 }
 
-.mixmag {
-  background-image: url(../images/mixmag.png);
+.nicole {
+  background-image: url(../images/nicole.png);
 }
 
 .music {
@@ -74,7 +74,7 @@ p {
   background-image: url(../images/skate.png);
 }
 
-.music, .welearn, .skate {
+.nicole, .welearn, .skate {
   background-position: center;
 }
 
